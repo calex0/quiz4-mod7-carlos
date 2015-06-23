@@ -43,10 +43,12 @@ var Quiz = sequelize.import(quiz_path);
 //var Sequelize = require ('sequelize');
 
 //Usar BBDD SQlite:
+/*
 var sequelize = new Sequelize(null,null,null,
                     {dialect: "sqlite",storage : "quiz.sqlite"}
                     );
 
+*/
 //Importar la definicion de la tabla Quiz en quiz.js
 var Quiz = sequelize.import(path.join(__dirname,'quiz'));
 
