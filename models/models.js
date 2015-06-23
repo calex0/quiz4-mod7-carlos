@@ -40,7 +40,7 @@ var Quiz = sequelize.import(quiz_path);
 
 
 //cargar Modelo ORM
-var Sequelize = require ('sequelize');
+//var Sequelize = require ('sequelize');
 
 //Usar BBDD SQlite:
 var sequelize = new Sequelize(null,null,null,
